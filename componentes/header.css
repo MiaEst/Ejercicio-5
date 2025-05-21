@@ -1,6 +1,6 @@
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 1rem 2rem;
     background-color: rgb(65, 86, 140);
@@ -11,11 +11,11 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ebdede;
+    justify-self: start;
   }
 
   nav {
-    flex: 1;
-    text-align: center;
+justify-self: center;
   }
 
   nav a {
